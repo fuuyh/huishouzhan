@@ -4,7 +4,7 @@ module.exports = {
   app: {
     // 默认是3000端口 
     // 判断如果没有process.env.PORT  就是 默认3000
-    port: process.env.PORT || 3001
+    port: process.env.PORT || 3005
   },
   // 数据库设置 
   db: {
