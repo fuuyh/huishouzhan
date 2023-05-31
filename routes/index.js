@@ -8,8 +8,9 @@ const router = require('express').Router()
 router.use('/user', require('./user'))
 // 引入  登录接口
 router.use('/auth', require('./auth'))
-// 引入 分类接口
+// 引入 订单接口
 router.use('/orders', require('./orders'))
-// 书签
+// 引入 图片上传功能
+router.use('upload', require('./upload-images'))
 // 导出模块
 module.exports = router
